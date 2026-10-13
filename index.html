@@ -20,14 +20,16 @@
   .box { border: 1px solid var(--line); border-radius: 12px; padding: 4px 16px; margin: 1.2em 0; }
   nav a { margin-right: 16px; }
 </style>
+<link rel="stylesheet" href="brand.css">
 </head>
 <body>
-<h1>Alter</h1>
-<p>Turn any photo into pixel art, ASCII, comic, halftone, sketch, glitch and more, right on your iPhone.</p>
-<ul>
-  <li><a href="privacy.html">Privacy Policy</a></li>
-  <li><a href="terms.html">Terms of Use</a></li>
-</ul>
+<header class="hero">
+  <img src="logo.svg" alt="Alter logo">
+  <h1>Alter</h1>
+  <p>Turn any photo into pixel art, ASCII, comic, halftone, sketch, glitch and more, right on your iPhone.</p>
+  <ul class="chips"><li>Pixel</li><li>ASCII</li><li>Comic</li><li>Halftone</li><li>Sketch</li><li>Glitch</li><li>Frames</li></ul>
+  <div class="cta"><a class="primary" href="#support">Support</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></div>
+</header>
 <h2>Other languages</h2>
 <ul>
   <li><code>vi</code> · <a href="privacy.vi.html">Chính sách quyền riêng tư</a> · <a href="terms.vi.html">Điều khoản sử dụng</a></li>
@@ -46,7 +48,7 @@
   <li><code>id</code> · <a href="privacy.id.html">Kebijakan Privasi</a> · <a href="terms.id.html">Ketentuan Penggunaan</a></li>
   <li><code>th</code> · <a href="privacy.th.html">นโยบายความเป็นส่วนตัว</a> · <a href="terms.th.html">ข้อกำหนดการใช้งาน</a></li>
 </ul>
-<h2>Support</h2>
+<h2 id="support">Support</h2>
 <p>Questions, bug reports or ideas: <a href="mailto:tiennln.work@gmail.com">tiennln.work@gmail.com</a></p>
 <p><strong>Cancel a subscription.</strong> Go to iOS Settings → Apple Account → Subscriptions → Alter.</p>
 <p><strong>Restore purchases.</strong> Open Alter → Settings → Restore purchases.</p>
